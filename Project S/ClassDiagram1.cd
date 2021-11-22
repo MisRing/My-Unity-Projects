@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HexCell">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICgBAAIAIAhAJIAoJAWjCAcQIEAggEDgUQAQwAAQAAA=</HashCode>
+      <FileName>Assets\HexCell.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HexGridChunk" />
+      <Property Name="HexCoordinates" />
+      <Property Name="HexDirection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HexDirectionExtensions">
+    <Position X="19.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAQAEAAAA=</HashCode>
+      <FileName>Assets\HexDirection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HexDirection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HexGrid">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAEAAABAAAIIAQAAAAACAABgBAAAAIQAAgAICEU=</HashCode>
+      <FileName>Assets\HexGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexGridChunk">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>goBGAEAAAAJAEQBAAEBHoAEKAIQgBAAAIgDAQgBACEg=</HashCode>
+      <FileName>Assets\HexGridChunk.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HexCell" />
+      <Property Name="HexMesh" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HexMapCamera">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARBCAAgEgIAAAAAAAAAABAAAAAAAYAQAAJAAAAgkEQ=</HashCode>
+      <FileName>Assets\HexMapCamera.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HexGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HexMapEditor">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="HexMapEditor.OptionalToggle" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\HexMapEditor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>hAQAAAKAAACAAQQEAgKAQAAJAAAAASLAAgABQgAAQEA=</HashCode>
+      <FileName>Assets\HexMapEditor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HexGrid" />
+      <Property Name="HexDirection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HexMesh">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAgVAAgABAAAAQgAgAAEUAJAAAQBECgAAAgABBAAkA=</HashCode>
+      <FileName>Assets\HexMesh.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EdgeVertices" />
+      <Property Name="HexEdgeType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HexMetrics">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAALEgBAgAAAppQAEAEAgAghAAAjAAInAAAAABIEg=</HashCode>
+      <FileName>Assets\HexMetrics.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HexMesh" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ListPool&lt;T&gt;">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ListPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="EdgeVertices">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAIAIAAAAAAAE=</HashCode>
+      <FileName>Assets\EdgeVertices.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HexCoordinates">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAECAAAAAAAEAAAAAAAAABAAQAAYAE=</HashCode>
+      <FileName>Assets\HexCoordinates.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="HexDirection">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACEAAAAAAAAAAAQgAAAAAAAAAAgAIAAA=</HashCode>
+      <FileName>Assets\HexDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HexEdgeType">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAEA=</HashCode>
+      <FileName>Assets\HexMetrics.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
